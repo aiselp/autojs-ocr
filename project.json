@@ -1,0 +1,55 @@
+{
+    "abis": null,
+    "assets": [],
+    "build": {
+        "build_number": 0,
+        "build_time": 0,
+        "release": false
+    },
+    "encryptLevel": 0,
+    "useFeatures": [],
+    "launchConfig": {
+        "displaySplash": true,
+        "hideLogs": false,
+        "splashText": "Powered by Auto.js Pro",
+        "stableMode": false,
+        "splashIcon": null,
+        "splashLayoutXml": null
+    },
+    "main": "main.js",
+    "name": "屏幕ocr识别",
+    "optimization": {
+        "removeOpenCv": false,
+        "unusedResources": false,
+        "removeAccessibilityService": false,
+        "obfuscateComponents": false
+    },
+    "packageName": "ocr.soikc.selp",
+    "scripts": {},
+    "versionCode": 3,
+    "versionName": "1.0",
+    "icon": null,
+    "publish": {
+        "category": "实用工具",
+        "details": "悬浮窗控制屏幕截取识别，在线翻译等",
+        "maxAutoJsVersion": -1,
+        "maxProVersion": 8009999,
+        "minAutoJsVersion": -1,
+        "minProVersion": 8000000,
+        "minSdkVersion": 0,
+        "permissions": [],
+        "summary": "调用百度api识别文字",
+        "tags": []
+    },
+    "signingConfig": null,
+    "androidResources": null,
+    "permissionConfig": {
+        "manifestPermissions": null,
+        "requestListOnStartup": [
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+        ]
+    },
+    "features": null,
+    "plugins": null,
+    "type": null
+}
