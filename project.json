@@ -1,0 +1,67 @@
+{
+    "abis": null,
+    "assets": [],
+    "build": {
+        "build_number": 1,
+        "build_time": 1675172472182,
+        "release": false
+    },
+    "encryptLevel": 0,
+    "useFeatures": [],
+    "launchConfig": {
+        "displaySplash": true,
+        "hideLogs": false,
+        "splashText": "Powered by Auto.js Pro",
+        "stableMode": false,
+        "splashIcon": null,
+        "splashLayoutXml": null
+    },
+    "main": "main.mjs",
+    "name": "屏幕ocr识别",
+    "optimization": {
+        "removeOpenCv": false,
+        "unusedResources": false,
+        "removeAccessibilityService": true,
+        "obfuscateComponents": false
+    },
+    "packageName": "ocr.soikc.selp",
+    "scripts": {},
+    "versionCode": 1,
+    "versionName": "1.0",
+    "icon": null,
+    "publish": {
+        "category": "实用工具",
+        "details": "云引擎需要补充配置文件才能使用，当初为了玩gal啃生肉写的，现在优化一下",
+        "maxAutoJsVersion": -1,
+        "maxProVersion": 8009999,
+        "minAutoJsVersion": -1,
+        "minProVersion": 8000000,
+        "minSdkVersion": 0,
+        "permissions": [],
+        "summary": "支持多种ocr插件",
+        "tags": []
+    },
+    "signingConfig": {
+        "keystore": "/storage/emulated/0/脚本/.keystore/autoselp.jks",
+        "alias": "selp",
+        "uuid": "4990cc39-4ca2-4dcf-b66f-8786ddd7f0f9"
+    },
+    "androidResources": null,
+    "permissionConfig": {
+        "manifestPermissions": null,
+        "requestListOnStartup": [
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+        ]
+    },
+    "features": {
+        "builtInOCR": null,
+        "activityIntentTasks": false,
+        "nodejs": "enabled"
+    },
+    "plugins": {
+        "org.autojs.autojspro.plugin.mlkit.ocr": "1.1",
+        "com.tomato.ocr": "1.0",
+        "org.autojs.autojspro.ocr.v2": "1.3"
+    },
+    "type": null
+}
