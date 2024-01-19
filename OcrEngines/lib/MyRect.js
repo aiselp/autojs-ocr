@@ -1,5 +1,5 @@
 
-if (typeof process !=='undefined'){
+if (typeof id ==='undefined'){
     require('rhino').install();
 }
 let Rect = android.graphics.Rect;

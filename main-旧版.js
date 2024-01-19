@@ -1,4 +1,4 @@
-let hsp = require("./hsp.js");
+
 let config = require('./config.js');
 let MyFloaty = require('./MyFloaty.js');
 let Ocr = require('./OcrEngines/index.js')
